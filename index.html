@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./nft_landingpage.css">
     <script src="https://kit.fontawesome.com/ac575eebb0.js" crossorigin="anonymous"></script>
     <title>NFT LANDING PAGE</title>
 </head>
 <body>
-    <div class="sidebar">
+    <div class="sidebar" id="side-nav">
+        <div class="close-button"><i class="fa-regular fa-circle-xmark" id="header__close"></i></div>
         <div class="sidebar-brand">
             <img src="./JT LOGO.png" alt="">
             <p>Zootopia</p>
@@ -47,6 +48,9 @@
     </div>
     <div class="main-content">
         <header>
+            <div class="toggle-button">
+                <i class="fa-solid fa-bars" id="header__toggle"></i> 
+            </div>
             <div class="user-welcome">
                 <h1>Hello George &#x1f44b;</h1>
                 <p>Manage your virtual zoo in Metaverse</p>
@@ -137,5 +141,6 @@
             </div>
         </div>
     </div>
+    <script src="./nft_landingpage.js"></script>
 </body>
 </html>
