@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    color: red;
+    color: #2c4549;
     font-family: Poppins;
 }
 .sidebar{
@@ -250,7 +250,7 @@ header .header-icon{
 }
 @media only screen and (max-width: 768px){
     .sidebar{
-        width: 50%;
+        width: 35%;
         height: 100%;
         padding: 20px 10px 10px 10px;
     }
