@@ -331,6 +331,7 @@ header .header-icon{
         padding: 0;
     }
     header{
+        position: fixed;
         padding-left: 10px;
         background-color: #2c4549;
         width: 100vw;
