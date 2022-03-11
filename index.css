@@ -268,10 +268,12 @@ header .header-icon{
         position: fixed;
     }
     .toggle-button{
-        display: inline;
+        display: flex;
         color: white;
         font-size: 24px;
         cursor: pointer;
+        margin-right: 40px;
+
     }
     .close-button{
         padding-top: 10px;
@@ -331,10 +333,61 @@ header .header-icon{
         padding: 0;
     }
     header{
-        padding-left: 10px;
+        padding: 0 20px;
         background-color: #2c4549;
         width: 100vw;
         height: 120px;
+        color: white;
+        display: flex;
+        align-items: center;
+        margin-left: 0;
+        justify-content: flex-start;
+    }
+    .user-welcome{
+        display: flex;
+        flex-direction: column;
+        margin-right: 40px;
+    }
+    header .user-welcome h1{
+        font-size: 25px;
+    }
+    header .user-welcome p{
+        font-size: 15px;
+        color: #a6993b;
+        margin-top: 5px;
+    }
+    header .header-icon{
+        padding-left: 0;
+        padding-top: 0;
+    }
+    .header-icon .search-wrapper{
+        padding: 5px;
+        margin-right: 10px;
+        width: 200px;
+        height: 37px;
+        border-radius: 10px;
+        background-color: rgb(128, 128, 128, 0.4)
+    }
+    .header-icon .search-wrapper span{
+        font-size: 15px;
+    }
+    .header-icon .search-wrapper input{
+        font-size: 12px;
+    }
+    .header-icon .search-wrapper input::placeholder{
+        color: white;
+    }
+    .header-icon .bell-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(128, 128, 128, 0.4);
+        width: 30px;
+        height: 35px;
+        border-radius: 8px;
+    }
+    .bell-wrapper span{
+        font-size: 15px;
     }
 
 }
