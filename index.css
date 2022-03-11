@@ -12,7 +12,7 @@ body{
     padding: 40px 20px 20px 20px;
     position: fixed;
     width: 300px;
-    height: 100vh;
+    height: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -81,6 +81,12 @@ header{
     position: fixed;
     display: flex;
     justify-content: space-between;
+}
+.toggle-button{
+    display: none;
+}
+.close-button{
+    display: none;
 }
 header .user-welcome h1{
     font-size: 40px;
@@ -265,7 +271,7 @@ header .header-icon{
     }
     .close-button{
         padding-top: 10px;
-        padding-right: 10px;
+        padding-right: 30px;
         position: absolute;
         right:0;
         top: 0;
@@ -308,6 +314,8 @@ header .header-icon{
     .sidebar .fa-sign-out{
         font-size: 18px;
         color: white;
+        bottom: 0;
+        padding-bottom: 20px;
     }
     .sidebar .fa-sign-out:hover{
         color: #a6993b;
