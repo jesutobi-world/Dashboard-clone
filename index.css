@@ -262,6 +262,10 @@ header .header-icon{
         color: white;
         padding: 30px;
         z-index: 1;
+        transition: 0.5s;
+        left: -100%;
+        top: 0;
+        position: fixed;
     }
     .toggle-button{
         display: inline;
@@ -326,7 +330,6 @@ header .header-icon{
         height: 120px;
     }
     .show{
-        display: none;
-        right: 0;
+        left: 0;
     }
 }
